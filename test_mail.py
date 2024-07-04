@@ -57,9 +57,9 @@ def verify_email(driver, expected_label, expected_subject, expected_body):
 
 # Main script
 def test_mail():
-    username = "bhavya1703shah@gmail.com"
-    password = "bhavya1703"
-    to_email = "bhavya1703shah@gmail.com"
+    username = "******@gmail.com"
+    password = "*********"
+    to_email = "**********@gmail.com"
     subject = "Test Mail"
     body = "Test Email Body"
     label_name = "Social"

@@ -15,14 +15,14 @@ def test_gmail():
     #   login to gmail
     #   give username and click next
     user_name = driver.find_element(By.XPATH, "//input[@id='identifierId']")
-    user_name.send_keys("bhavya1703shah@gmail.com")
+    user_name.send_keys("************@gmail.com")
     next_btn = driver.find_element(By.XPATH, "//span[normalize-space()='Next']")
     next_btn.click()
     time.sleep(10)
 
     #   give password and click next
     password = driver.find_element(By.XPATH, "//input[@name='Passwd']")
-    password.send_keys("bhavya1703")
+    password.send_keys("*************")
     next_btn1 = driver.find_element(By.XPATH, "//span[normalize-space()='Next']")
     next_btn1.click()
     time.sleep(20)
@@ -34,7 +34,7 @@ def test_gmail():
 
     #   give email address,subject and message body
     to_fields = driver.find_element(By.XPATH, "//input[@class='agP aFw']")
-    to_fields.send_keys("bhavya1703shah@gmail.com")
+    to_fields.send_keys("***********@gmail.com")
     subject_box = driver.find_element(By.XPATH, "//input[@name='subjectbox']")
     subject_box.send_keys("Test Mail")
     message_body = driver.find_element(By.XPATH, "//div [@aria-label='Message Body']")
